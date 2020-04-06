@@ -23,6 +23,7 @@ PODS:
   - HHYFMBase/Category (0.1.0)
   - HHYFMBase/Network (0.1.0):
     - AFNetworking
+    - HHYFMBase/Category
     - SDWebImage
   - HHYFMBase/Tool (0.1.0)
   - SDWebImage (5.7.0):
@@ -43,7 +44,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  HHYFMBase: 9667c0ceab51009e8a9c51ae11b703f2ebc84197
+  HHYFMBase: 4f0a7ff068f6493a30e2978e15790e87e009c1e6
   SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
 
 PODFILE CHECKSUM: 54a8bfc947d7741dc857710fb78d4d1c0c9361d2
