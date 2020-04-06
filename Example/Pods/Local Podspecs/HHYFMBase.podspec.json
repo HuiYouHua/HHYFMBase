@@ -1,0 +1,48 @@
+{
+  "name": "HHYFMBase",
+  "version": "0.1.0",
+  "summary": "HHYFMBase",
+  "description": "HHYFM基础组件",
+  "homepage": "https://github.com/HuiYouHua/HHYFMBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "793316968@qq.com": "793316968@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HuiYouHua/HHYFMBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHYFMBase/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "HHYFMBase/Classes/Base/**/*"
+    },
+    {
+      "name": "Category",
+      "source_files": "HHYFMBase/Classes/Category/**/*"
+    },
+    {
+      "name": "Network",
+      "source_files": "HHYFMBase/Classes/Network/**/*",
+      "dependencies": {
+        "AFNetworking": [
+
+        ],
+        "SDWebImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "Tool",
+      "source_files": "HHYFMBase/Classes/Tool/**/*"
+    }
+  ]
+}

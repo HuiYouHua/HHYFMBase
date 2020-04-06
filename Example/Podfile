@@ -1,0 +1,16 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HHYFMBase_Example' do
+  pod 'HHYFMBase', :path => '../'
+
+  target 'HHYFMBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
