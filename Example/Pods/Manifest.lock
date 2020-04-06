@@ -14,18 +14,18 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - HHYFMBase (0.1.0):
-    - HHYFMBase/Base (= 0.1.0)
-    - HHYFMBase/Category (= 0.1.0)
-    - HHYFMBase/Network (= 0.1.0)
-    - HHYFMBase/Tool (= 0.1.0)
-  - HHYFMBase/Base (0.1.0)
-  - HHYFMBase/Category (0.1.0)
-  - HHYFMBase/Network (0.1.0):
-    - AFNetworking
+  - HHYFMBase (0.2.0):
+    - HHYFMBase/Base (= 0.2.0)
+    - HHYFMBase/Category (= 0.2.0)
+    - HHYFMBase/Network (= 0.2.0)
+    - HHYFMBase/Tool (= 0.2.0)
+  - HHYFMBase/Base (0.2.0)
+  - HHYFMBase/Category (0.2.0)
+  - HHYFMBase/Network (0.2.0):
+    - AFNetworking (~> 3.2.1)
     - HHYFMBase/Category
-    - SDWebImage
-  - HHYFMBase/Tool (0.1.0)
+    - SDWebImage (~> 5.7.0)
+  - HHYFMBase/Tool (0.2.0)
   - SDWebImage (5.7.0):
     - SDWebImage/Core (= 5.7.0)
   - SDWebImage/Core (5.7.0)
@@ -44,7 +44,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  HHYFMBase: 4f0a7ff068f6493a30e2978e15790e87e009c1e6
+  HHYFMBase: 7e575f2138830456c3df2061daca990c7ffe81ac
   SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
 
 PODFILE CHECKSUM: 54a8bfc947d7741dc857710fb78d4d1c0c9361d2
